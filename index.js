@@ -8,8 +8,11 @@ var server = http.createServer(function(request, response) {
 });
 
 var port = 80;
-server.listen(port);
+//server.listen(port);
+server.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}/`);
+});
 console.log("=============================");
 console.log("*******************");
-console.log("Server running at http://localhost:%d", port);
+// console.log("Server running at http://localhost:%d", port);
 console.log("---------------------------");
