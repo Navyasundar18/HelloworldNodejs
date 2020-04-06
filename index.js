@@ -14,5 +14,6 @@ server.listen(port, () => {
 });
 console.log("=============================");
 console.log("*******************");
+console.log("******************* server is up & running");
 // console.log("Server running at http://localhost:%d", port);
 console.log("---------------------------");
